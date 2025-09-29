@@ -218,3 +218,31 @@ if (i % 2 === 0) {
         })
 
             console.log(newArray2)
+
+            // Objects;
+
+    // let adminEmail = "example@gmail.com"
+    // let adminPass  = "12345"
+    // let adminName  = "Don Abde"
+    // let adminSubscribtion = "VIP+"
+
+    let admins = [{
+        email: "example@gmail.com",
+        password: "12345",
+        name: "Don Abde",
+        Subscribtion: "VIP+"
+    },
+                {
+                    email: "Abde@.com",
+                    password: "12345",
+                    name: "Danny"
+                }
+]
+
+ console.log(admins[0].email)
+
+ console.log(admins[1].name)
+ 
+ console.log(admins[1].email)
+
+   
