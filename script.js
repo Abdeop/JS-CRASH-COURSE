@@ -245,4 +245,11 @@ if (i % 2 === 0) {
  
  console.log(admins[1].email)
 
-   
+//    The DOM
+// 1st method
+
+console.log(document.querySelector(`#heading`))
+
+// 2nd method; Only work with element who got Id in html;
+
+console.log(document.getElementById(`heading`))
