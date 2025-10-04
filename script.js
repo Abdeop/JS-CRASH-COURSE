@@ -246,10 +246,20 @@ if (i % 2 === 0) {
  console.log(admins[1].email)
 
 //    The DOM
-// 1st method
+// 1st method (recommended)
 
 console.log(document.querySelector(`#heading`))
 
 // 2nd method; Only work with element who got Id in html;
 
 console.log(document.getElementById(`heading`))
+
+// change element content 
+document.querySelector(`h1`).innerHTML = "Abde"
+document.querySelector(`h1`).innerHTML += "Abde"
+
+// Change CSS;
+document.querySelector(`h1`).style.color = "white"
+document.querySelector(`h1`).style.fontWeight = 800
+document.querySelector(`h1`).style.fontFamily = "sans-serif"
+document.querySelector(`h1`).style.margin = "20px"
