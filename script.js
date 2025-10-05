@@ -263,3 +263,12 @@ document.querySelector(`h1`).style.color = "white"
 document.querySelector(`h1`).style.fontWeight = 800
 document.querySelector(`h1`).style.fontFamily = "sans-serif"
 document.querySelector(`h1`).style.margin = "20px"
+
+// Event listeners ( go see html file);
+
+function changeButtonToGreen () {
+     document.querySelector("button").style.backgroundColor = "green"
+    console.log("The button has been clicked !")
+}
+
+// Change Classnames;
