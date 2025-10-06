@@ -271,4 +271,8 @@ function changeButtonToGreen () {
     console.log("The button has been clicked !")
 }
 
-// Change Classnames;
+
+function toggleSidebar () {
+    document.querySelector(`body`).classList.toggle("open")
+console.log("a function did ran")
+}
